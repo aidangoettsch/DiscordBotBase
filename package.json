@@ -1,0 +1,17 @@
+{
+  "name": "@BOT_NAME@",
+  "version": "@BOT_VERSION@",
+  "description": "@BOT_DESCRIPTION@",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node src/bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@BOT_AUTHOR@",
+  "license": "MIT",
+  "dependencies": {
+    "eris": "^0.4.0",
+    "node-opus": "^0.2.2",
+    "standard": "^8.4.0"
+  }
+}

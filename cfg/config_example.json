@@ -1,0 +1,22 @@
+{
+  "bot": {
+    "token": "TOKEN HERE",
+    "avatar": "Add a base 64 data URL here or remove this entry to leave the avatar unchanged."
+  },
+  "behavior": {
+    "guilds": {
+      "guildId": {
+        "commands": {
+          "prefix": "!",
+          "sample-command-name": {
+            "usageName": "guild-sample-command-name",
+            "permissions": [{
+              "scope": "role",
+              "id": "role-id"
+            }]
+          }
+        }
+      }
+    }
+  }
+}
